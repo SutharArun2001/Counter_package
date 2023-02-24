@@ -1,0 +1,18 @@
+{
+    "name": "lp/calculator",
+    "description": "This is custom package.",
+    "autoload": {
+        "psr-4": {
+            "LP\\Calculator\\": "app/packages/LP/calculator/src"
+        }
+    },
+    
+    "extra": {
+        "laravel":{
+            "providers":[
+            "LP\\Calculator\\CalculatorServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
