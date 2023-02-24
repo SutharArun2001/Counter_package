@@ -1,5 +1,5 @@
 <?php
-use LP\Calculator\CalculatorController;
+use LPP\Calculator\CalculatorController;
 
 Route::get('calculator',function(){
     echo "hello from packages";

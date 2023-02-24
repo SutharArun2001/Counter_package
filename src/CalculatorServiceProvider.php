@@ -1,6 +1,6 @@
 <?php
 
-namespace LP\Calculator;
+namespace LPP\Calculator;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -11,7 +11,7 @@ class CalculatorServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->app->make('LP\Calculator\CalculatorController');
+        $this->app->make('LPP\Calculator\CalculatorController');
             $this->loadViewsFrom(__DIR__.'/view','calculator');
 
         //

@@ -3,14 +3,14 @@
     "description": "This is custom package.",
     "autoload": {
         "psr-4": {
-            "LP\\Calculator\\": "app/packages/LP/calculator/src"
+            "LPP\\Calculator\\": "app/packages/lpp/calculator/src"
         }
     },
     
     "extra": {
         "laravel":{
             "providers":[
-            "LP\\Calculator\\CalculatorServiceProvider"
+            "LPP\\Calculator\\CalculatorServiceProvider"
             ]
         }
     },
