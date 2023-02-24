@@ -1,18 +1,11 @@
 {
-    "name": "lpp/calculator",
-    "description": "This is custom package.",
+    "name": "toastr/main",
+    "description": "this package for toastr.",
+    "require": {},
     "autoload": {
         "psr-4": {
-            "LPP\\Calculator\\": "app/packages/lpp/calculator/src"
+            "Toastr\\Main\\":"packages/Toastr/main/src/"
         }
-    },
+    }
     
-    "extra": {
-        "laravel":{
-            "providers":[
-            "LPP\\Calculator\\CalculatorServiceProvider"
-            ]
-        }
-    },
-    "require": {}
 }
